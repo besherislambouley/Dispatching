@@ -1,6 +1,7 @@
 /*
  * we can transform the task to " find the maximum number of elements with sum <= m in a range l r " by using dfs order
- * we can answer the previous query using persistent segment tree ( it is similar to find the k'th element in an array using binary tree ) 
+ * we can answer the previous query using persistent segment tree ( it is similar to find the k'th element in an array using binary tree )
+ * it can be solved using dsu on tree also ( my dsu on tree solution : https://github.com/besherislambouley/Dispatching2/blob/master/apio.cpp ) 
 */
 #define fast ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0)
 #include <bits/stdc++.h>
